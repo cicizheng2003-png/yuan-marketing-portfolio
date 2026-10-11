@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Yuan Zheng — dreamcore marketing portfolio." />
+  <title>Yuan Zheng — Dreamcore Marketing Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <!-- Decorative background elements. You can delete any of these img tags to remove a background element. -->
+  <img class="decor decor-moon" src="assets/decor-moon.png" alt="" aria-hidden="true">
+  <img class="decor decor-house" src="assets/decor-house.png" alt="" aria-hidden="true">
+  <img class="decor decor-flowers" src="assets/decor-flowers-left.png" alt="" aria-hidden="true">
+  <img class="decor decor-cloud" src="assets/decor-cloud-left.png" alt="" aria-hidden="true">
+
+  <header class="site-header shell">
+    <a class="brand" href="#top">Yuan Zheng</a>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#educationSection">Education</a>
+      <a href="#cases">Cases</a>
+      <a href="#video">Video</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="hero" class="hero shell">
+      <div class="hero-stage">
+        <img class="hero-image" src="assets/hero-cover.png" alt="Dreamy cover artwork with clickable education and cases polaroids">
+        <div class="cover-title">Yuan Zheng’s portfolio</div>
+
+        <button class="hotspot hotspot-education" aria-label="Open education background" id="openEducation"></button>
+        <a class="hotspot hotspot-cases" aria-label="Go to cases" href="#cases"></a>
+      </div>
+    </section>
+
+    <section id="educationSection" class="shell intro-section">
+      <div class="section-card section-card-soft">
+        <p class="eyebrow">EDUCATION</p>
+        <h2>Academic background</h2>
+        <p class="lede">A business and analytics foundation shaped by marketing strategy, economics, statistics, and execution-focused projects.</p>
+        <div class="education-grid">
+          <article class="edu-card">
+            <span class="pill">2025</span>
+            <h3>Duke University — The Fuqua School of Business</h3>
+            <p class="degree">Master of Management Studies (MMS)</p>
+            <ul>
+              <li>Built GTM and revenue forecasting work for Cygnus / VEGA.</li>
+              <li>Coursework included Market Research, Accounting, Microeconomics, Statistics &amp; Regression, Finance, and business strategy.</li>
+              <li><strong>Advanced Excel:</strong> PivotTables, VLOOKUP, XLOOKUP, decision-tree modeling, forecasting, and Oracle Crystal Ball.</li>
+              <li><strong>Analytics:</strong> R for statistical analysis, regression, and data-driven decision support.</li>
+            </ul>
+          </article>
+          <article class="edu-card">
+            <span class="pill">2024</span>
+            <h3>University of California, Davis</h3>
+            <p class="degree">B.S. in Managerial Economics</p>
+            <ul>
+              <li>Developed quantitative reasoning through economics and analytics coursework.</li>
+              <li>Strengthened Excel, research, and business communication skills.</li>
+              <li>Built the foundation for data-informed marketing and operational thinking.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases" class="shell intro-section">
+      <div class="section-head">
+        <p class="eyebrow">SELECTED CASES</p>
+        <h2>Click a case to view the full story.</h2>
+      </div>
+      <div class="case-grid">
+        <button class="case-card" data-case="campaignops">
+          <span class="case-no">01</span>
+          <h3>Creator Campaign Operations</h3>
+          <p>Outreach, tracker building, internal coordination, draft review, and content launch.</p>
+        </button>
+        <button class="case-card" data-case="bestqool">
+          <span class="case-no">02</span>
+          <h3>Creator Response Optimization</h3>
+          <p>Using playbook logic to define creator categories, improve fit, and optimize outreach planning.</p>
+        </button>
+        <button class="case-card" data-case="cygnus">
+          <span class="case-no">03</span>
+          <h3>Cygnus / VEGA</h3>
+          <p>Market filtering, buyer mapping, and ARR forecasting supported by efficient Excel modeling.</p>
+        </button>
+        <button class="case-card" data-case="wellness">
+          <span class="case-no">04</span>
+          <h3>Creator Campaign Planning for a Wellness Brand</h3>
+          <p>Plan → execute → measure → optimize, using channel roles and creator-fit logic.</p>
+        </button>
+        <button class="case-card" data-case="hasmo">
+          <span class="case-no">05</span>
+          <h3>SEO Growth & Performance Marketing</h3>
+          <p>Competitor audit · 200+ keyword system · GA insights · paid search · +23% organic traffic</p>
+        </button>
+      </div>
+    </section>
+
+    <section id="video" class="shell intro-section">
+      <div class="section-card video-section">
+        <div>
+          <p class="eyebrow">VIDEO EXAMPLE</p>
+          <h2>Pitch video edit</h2>
+          <p class="lede">A short editing sample showing pacing, visual hierarchy, and story clarity.</p>
+        </div>
+        <div class="video-wrap">
+          <video controls preload="metadata" poster="assets/video-poster.jpg">
+            <source src="video/vitruvian-pitch-edit.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="shell intro-section contact-section">
+      <div class="section-card contact-card">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let’s connect</h2>
+          <p class="lede">If you would like to talk about a role, a project, or creator marketing work, feel free to reach out.</p>
+        </div>
+        <a class="contact-link" href="mailto:cicizheng2003@gmail.com">
+          <span>Say hello</span>
+          <strong>cicizheng2003@gmail.com</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="backdrop"></div>
+
+  <section class="modal modal-education" id="educationModal" aria-hidden="true">
+    <button class="modal-close" data-close="educationModal">Close ×</button>
+    <div class="modal-content">
+      <p class="eyebrow">EDUCATION</p>
+      <h2>Education background</h2>
+      <div class="education-grid modal-grid">
+        <article class="edu-card">
+          <span class="pill">Duke Fuqua</span>
+          <h3>Master of Management Studies</h3>
+          <p class="degree">Business analytics, finance, and strategic problem solving.</p>
+          <ul>
+            <li>Coursework included Market Research, Accounting, Microeconomics, Statistics &amp; Regression, Finance, and business strategy.</li>
+            <li><strong>Advanced Excel:</strong> PivotTables, VLOOKUP, XLOOKUP, decision-tree modeling, forecasting, and Oracle Crystal Ball.</li>
+            <li><strong>Analytics:</strong> R for statistical analysis, regression, and data-driven decision support.</li>
+            <li>Applied these tools to GTM, market segmentation, and revenue-forecasting projects.</li>
+          </ul>
+        </article>
+        <article class="edu-card">
+          <span class="pill">UC Davis</span>
+          <h3>B.S. in Managerial Economics</h3>
+          <p class="degree">Economics with a management and quantitative foundation.</p>
+          <ul>
+            <li>Developed analytical thinking useful for campaign and business analysis.</li>
+            <li>Built strong foundations in statistics, economics, and business coursework.</li>
+            <li>Prepared for later work in marketing operations and strategy.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="modal modal-case" id="caseModal" aria-hidden="true">
+    <button class="modal-close" data-close="caseModal">Close ×</button>
+    <div class="modal-content" id="caseContent"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
