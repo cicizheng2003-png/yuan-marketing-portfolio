@@ -21,7 +21,7 @@ img{max-width:100%;display:block}
 
 .page-bg{position:fixed;inset:0;background:
 linear-gradient(rgba(255,252,254,.4),rgba(255,252,254,.46)),
-url('assets/background-full.png') center top / cover no-repeat;
+url('background-full.png') center top / cover no-repeat;
 z-index:-3}
 .decor{position:fixed;pointer-events:none;z-index:-2;opacity:.95;user-select:none}
 .decor-moon{right:-20px;top:70px;width:min(33vw,500px)}
