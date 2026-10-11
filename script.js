@@ -24,7 +24,7 @@ const cases = {
       ['Launch-ready','from outreach to posting']
     ],
     evidence: [
-      ['assets/workflow-tracker-proof.png','Redacted tracker view showing how campaign progress, creator info, and next steps were organized.']
+      ['workflow-tracker-proof.png','Redacted tracker view showing how campaign progress, creator info, and next steps were organized.']
     ]
   },
   bestqool: {
@@ -66,11 +66,11 @@ const cases = {
       ['~$600k','base-case ARR']
     ],
     evidence: [
-      ['assets/cygnus-funnel.png','Market filtering from a broad Title IV universe to a qualified 292-school target universe.'],
-      ['assets/cygnus-buyers.png','Buyer-role mapping showing the strongest GTM entry points.'],
-      ['assets/cygnus-arr.png','Scenario-based revenue forecasting as an example of efficient Excel modeling.']
+      ['cygnus-funnel.png','Market filtering from a broad Title IV universe to a qualified 292-school target universe.'],
+      ['cygnus-buyers.png','Buyer-role mapping showing the strongest GTM entry points.'],
+      ['cygnus-arr.png','Scenario-based revenue forecasting as an example of efficient Excel modeling.']
     ],
-    doc: 'docs/cygnus-vega-work-sample.pdf'
+    doc: 'cygnus-vega-work-sample.pdf'
   },
   wellness: {
     title: 'Creator Campaign Planning for a Wellness Brand',
