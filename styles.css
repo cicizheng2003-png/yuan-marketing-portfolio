@@ -19,15 +19,8 @@ button{font:inherit}
 img{max-width:100%;display:block}
 .shell{width:min(var(--max),calc(100% - 44px));margin-inline:auto;position:relative;z-index:2}
 
-.page-bg{position:fixed;inset:0;background:
-linear-gradient(rgba(255,252,254,.4),rgba(255,252,254,.46)),
-url('background-full.png') center top / cover no-repeat;
-z-index:-3}
-.decor{position:fixed;pointer-events:none;z-index:-2;opacity:.95;user-select:none}
-.decor-moon{right:-20px;top:70px;width:min(33vw,500px)}
-.decor-house{right:-8px;bottom:10vh;width:min(20vw,260px)}
-.decor-flowers{left:-12px;bottom:0;width:min(22vw,260px)}
-.decor-cloud{left:-18px;top:34vh;width:min(24vw,280px);opacity:.72}
+.page-bg{position:fixed;inset:0;background:linear-gradient(rgba(255,252,254,.42),rgba(255,252,254,.50)),url('background-full.png') center top / cover no-repeat;z-index:-3}
+
 
 .site-header{position:sticky;top:12px;display:flex;justify-content:space-between;align-items:center;padding:14px 18px;margin-top:12px;background:rgba(255,255,255,.66);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.9);border-radius:999px;box-shadow:0 10px 28px rgba(95,74,90,.1)}
 .brand{text-decoration:none;font-family:Manrope,sans-serif;font-weight:700;letter-spacing:-.03em}
@@ -122,8 +115,6 @@ figure.evidence figcaption{padding:10px 12px;color:#6b6370;font-size:12px;backgr
 .link-pill{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:999px;background:#2b2330;color:white;text-decoration:none;font-size:13px}
 
 @media (max-width: 900px){
-  .decor-moon{width:54vw;top:90px}
-  .decor-house{width:34vw}
   .name-card{max-width:310px}
   .name-card h1{font-size:38px}
   .education-grid,.case-grid,.video-section,.contact-card,.case-intro,.case-process,.metrics{grid-template-columns:1fr}
